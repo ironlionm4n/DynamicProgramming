@@ -13,9 +13,14 @@ class Program
     
     private static void Main(string[] args)
     {
-        //FibTest();
+        FibTest();
         //GridTest();
         //CanSumTest();
+        //HowSumTest();
+    }
+
+    private static void HowSumTest()
+    {
         var memo = new Dictionary<int, int[]?>();
         var howSumResult = HowSum(7, new int[] { 2, 3 }, memo);
         HowSumConsoleWriteLine(howSumResult);
@@ -29,7 +34,7 @@ class Program
         howSumResult = HowSum(8, new[] { 2, 3, 5 }, memo);
         HowSumConsoleWriteLine(howSumResult);
         memo.Clear();
-        howSumResult = HowSum(300, new [] {7, 14}, memo);
+        howSumResult = HowSum(300, new[] { 7, 14 }, memo);
         HowSumConsoleWriteLine(howSumResult);
     }
 

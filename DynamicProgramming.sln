@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{1434CB80-991C-4021-A904-0F31BB128ABE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneHundredCodingChallenges", "OneHundredCodingChallenges\OneHundredCodingChallenges.csproj", "{7CD746A8-595E-496D-B1EB-351875FFE8BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{1434CB80-991C-4021-A904-0F31BB128ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1434CB80-991C-4021-A904-0F31BB128ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1434CB80-991C-4021-A904-0F31BB128ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD746A8-595E-496D-B1EB-351875FFE8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD746A8-595E-496D-B1EB-351875FFE8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD746A8-595E-496D-B1EB-351875FFE8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD746A8-595E-496D-B1EB-351875FFE8BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
